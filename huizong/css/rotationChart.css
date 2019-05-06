@@ -1,0 +1,147 @@
+body,
+ul,
+li,
+p,
+a {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	border: none;
+}
+
+#bannerBox {
+	position: relative;
+	width: 780px;
+	height: 500px;
+	border: 1px solid #CECECE;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#bannerList {
+	position: absolute;
+	height: 500px;
+}
+
+#bannerList li {
+	float: left;
+	width: 780px;
+	height: 500px;
+}
+
+#bannerList img {
+	width: 780px;
+	height: 500px;
+	display: block;
+}
+
+#btns span {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	width: 40px;
+	height: 40px;
+	background: #000000;
+	opacity: .3;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	color: white;
+	display: none;
+	border-radius: 5px;
+}
+
+#btns span:hover {
+	background: red;
+}
+
+#btns .prev {
+	left: 20px;
+}
+
+#btns .next {
+	right: 20px;
+}
+
+#nums {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+#nums li {
+	float: left;
+	margin: 5px;
+	width: 23px;
+	height: 8px;
+	background: #ccc;
+	color: red;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+#nums li:hover,
+#nums li.hover {
+	width: 30px;
+	background: white;
+	color: white;
+}
+
+.detail_box {
+	width: 400px;
+	position: absolute;
+	height: 100%;
+	background: rgba(0, 0, 0, .3);
+	color: rgba(245, 245, 245, 245);
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.message_group {
+	width: 330px;
+	margin-top: 50px;
+	margin-left: 30px;
+
+}
+
+.message_group p {
+	margin-top: 5px;
+}
+
+.introduce_group {
+	width: 330px;
+	height: 1200px;
+	margin-top: 20px;
+	margin-left: 30px;
+
+}
+
+#company_introduce {
+	height: 99px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+
+}
+
+
+
+.introduce_group a {
+	width: 40px;
+	display: block;
+	text-decoration: none;
+	color: rgba(245, 245, 245, 245);
+	margin-top: 5px;
+}
+
+/*轮播*/

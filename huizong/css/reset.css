@@ -1,0 +1,10 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,header,footer,section,img,figcaption,figure,i,span{margin:0;padding:0}
+a{color:#787878;text-decoration:none}
+a:hover{color:#000000;text-decoration:none}
+em,i{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;display: block;}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+b{font-weight: normal; color: red;}
+body,html{width: 100%;}

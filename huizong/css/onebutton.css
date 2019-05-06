@@ -1,0 +1,104 @@
+/*统一格式*/
+.btn{
+	padding: 0;
+	color: #fff;
+	border-radius: 0;
+}
+.btn:hover{
+	color: #fff;
+}
+.modal-lg{
+	width: 744px;
+	height: 534px;
+	background: #09f;
+	padding: 0 10px;
+	box-sizing: border-box;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+/*.top-dd h3{
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+}*/
+.top-dd{
+	height: 51px;
+	padding: 12px;
+	border-bottom: 1px solid #ddd;
+}
+.modal-lg .close{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 28px;
+	background: #6cf;
+	color: #fff;
+	font-size: 24px;
+	opacity: 1;
+}
+.modal-content{
+	box-shadow: none;
+	margin-top: 10px;
+	width: 720px;
+	height: 460px;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+.modal-content li:nth-child(1){
+	height: 32px;
+	/*margin: 12px 0;*/
+}
+.modal-content li:nth-child(2),li:nth-child(3){
+	/*margin-top: 12px;*/
+}
+.modal-content li:nth-child(4){
+	height: 32px;
+	/*margin-top: 12px;*/
+}
+.modal-content li:nth-child(4) strong{
+	float: left;
+}
+.modal-content .pupinfo{
+	height: 28px;
+	float: left;
+}
+.modal-content li:nth-child(5){
+	height: 130px;
+}
+.modal-content li:nth-child(5) .light-ts2{
+	height: 94px;
+	float:left;
+	margin-left: 10px;
+}
+.modal-content li:nth-child(5) .light-ts3_title{
+	margin-left: 15px;
+	float: left;
+	font-weight: 700;
+	color: #c00;
+}
+#pupcontent{
+	height: 130px;
+	float: left;
+}
+.modal-content li:nth-child(5) strong{
+	float: left;
+}
+.modal-content li:nth-child(6){
+	/*margin-top: 12px;*/
+}
+.modal-content li:nth-child(8){
+	position: relative;
+	height:60px;
+}
+.btn-primary{
+	position: relative;
+	top: 10px;
+	left: 95px;
+	width: 130px;
+	height: 40px;
+}
+.light-ts4{
+	float:right;
+	position: relative;
+	right: 95px;
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>帮我找酒</title>
+
+		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<script src="../bootstrap-3.3.7-dist/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../bootstrap-3.3.7-dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/find.css" />
+		
+	</head>
+
+	<body>
+
+		<header>
+			<div class="header">
+				
+			</div>
+		</header>
+
+		<div id="fabu">
+			<div class="fabu">
+				<h2>发布求购信息  快速找到产品</h2>
+				<div class="lef">
+					<p>求购产品信息<span>(还没找到合适的产品？尝试发布求购信息，让厂家主动找上门)</span></p>
+					<ul>
+						<li>产品名称：<input type="text" class="wenben" />
+							<select name="" class="daili">
+								<option value="我要代理">我要代理</option>
+								<option value="我要购买">我要购买</option>
+								<option value="我要团购">我要团购</option>
+							</select>
+						</li>
+						<li>求购详情：<textarea class="duoxuan"></textarea></li>
+						<li>&nbsp;&nbsp;&nbsp;求购人：<input type="text" class="wenben" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：<input type="text" class="wenben" /></li>
+						<li><input type="checkbox" name="" id="" value="" />我已阅读并同意《美酒招商网代理商服务条款》</li>
+					</ul>
+					<input type="button" name="" id="tijiao" value="提交信息" />
+				</div>
+				<div class="righ">
+					<h5>帮您找项目</h5>
+					<p>专业项目顾问一对一指导</p>
+					<ul>
+						<li>1、找不到合适的项目，请找我！</li>
+						<li>2、找不到合适的项目，请找我！</li>
+						<li>3、找不到合适的项目，请找我！</li>
+						<li>4、找不到合适的项目，请找我！</li>
+					</ul>
+					<div class="ma">
+						<img src="../img/20.jpg" />
+					</div>
+					<div class="wenzi">
+						加专业顾问微信，帮您解决酒代理难题
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="tuisong">
+			<div class="tuisong">
+				<h3>您可能感兴趣的项目<span>更多项目>></span></h3>
+				<div>
+					<ul>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+						<li><img src="../img/21.jpg" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--ajax-->
+		<div id="biaoge">
+			<div class="biaoge1">
+				<div class="left-left">
+					<div class="bs-example" data-example-id="simple-table">
+						<table class="table">
+							<caption>地区：
+								<select>
+									<option value="">全国</option>
+									<option value="北京市">北京市</option>
+									<option value="天津市">天津市</option>
+									<option value="上海市">上海市</option>
+									<option value="重庆市">重庆市</option>
+									<option value="河北省">河北省</option>
+									<option value="山西省">山西省</option>
+									<option value="内蒙古">内蒙古</option>
+									<option value="辽宁省">辽宁省</option>
+									<option value="吉林省">吉林省</option>
+									<option value="黑龙江省">黑龙江省</option>
+									<option value="江苏省">江苏省</option>
+									<option value="浙江省">浙江省</option>
+									<option value="安徽省">安徽省</option>
+									<option value="福建省">福建省</option>
+									<option value="江西省">江西省</option>
+									<option value="山东省">山东省</option>
+									<option value="河南省">河南省</option>
+									<option value="湖北省">湖北省</option>
+									<option value="湖南省">湖南省</option>
+									<option value="广东省">广东省</option>
+									<option value="广西">广西</option>
+									<option value="海南省">海南省</option>
+									<option value="四川省">四川省</option>
+									<option value="贵州省">贵州省</option>
+									<option value="云南省">云南省</option>
+									<option value="西藏">西藏</option>
+									<option value="陕西省">陕西省</option>
+									<option value="甘肃省">甘肃省</option>
+									<option value="青海省">青海省</option>
+									<option value="宁夏">宁夏</option>
+									<option value="新疆">新疆</option>
+									<option value="香港">香港</option>
+									<option value="澳门">澳门</option>
+									<option value="台湾省">台湾省</option>
+								</select>
+								<span>时间：<input type="month"/>&nbsp;&nbsp;-&nbsp;&nbsp;<input type="month"/></span>
+								<input type="button" name="" id="sousuo" value="搜索" />
+								<thead>
+									<tr>
+										<th>意向公司</th>
+										<th>地区</th>
+										<th>内容</th>
+										<th>发布日期</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+									<tr>
+										<td scope="row">四川玖博国际贸易有限公司</td>
+										<td>江苏省无锡市</td>
+										<td>张**</td>
+										<td class="teshu2">我是新手，想从事酒水代理；我专做酒店/饭店配货；我想了解产品的利润空间</td>
+									</tr>
+								</tbody>
+						</table>
+						<div class="fenye">
+							<ul id="pages">
+								<li>首页</li>
+								<li>上一页</li>
+								<li class="pageNum"></li>
+								<li>下一页</li>
+								<li>尾页</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<div class="right-right">
+					<div class="sousuo1">
+						<h3>热门搜索<span>更多>></span></h3>
+						<ul>
+							<li><span class="biao">1</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span class="biao">2</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span class="biao">3</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>4</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>5</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>6</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>7</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>8</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>5</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>6</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>7</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>8</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+							<li><span>5</span>
+								<a href="">百年泸州老窖窖龄60年酒</a>
+							</li>
+						</ul>
+					</div>
+					<div class="RMXM">
+						<h3>热门项目<span>更多>></span></h3>
+						<ul>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+							<li>
+								<a href="">左传原酒卖火了</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+
+			</div>
+		</footer>
+
+		<script type="text/javascript">
+			$(function() {
+				$(".header").load("header.html");
+				$(".footer").load("jdfooter.html");
+
+			})
+		</script>
+	</body>
+
+</html>

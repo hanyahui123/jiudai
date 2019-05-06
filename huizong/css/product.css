@@ -1,0 +1,379 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+header,
+footer,
+section,
+img,
+figcaption,
+figure,
+i,
+span {
+	margin: 0;
+	padding: 0
+}
+
+a {
+	color: #000;
+	text-decoration: none
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none
+}
+
+em,
+i {
+	font-style: normal
+}
+
+li {
+	list-style: none
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+p {
+	word-wrap: break-word
+}
+
+.wrap {
+	width: 1190px;
+	margin: auto;
+}
+
+.wrap:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.current {
+	width: 1178px;
+	background: #fff;
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	color: #767676;
+	padding: 5px;
+}
+
+.current p a:hover {
+	text-decoration: underline;
+}
+
+.main-left {
+	width: 948px;
+	float: left;
+}
+
+.sort {
+	width: 946px;
+}
+
+.brand {
+	border: 1px solid #cecece;
+}
+
+.sort-header {
+	padding: 5px;
+	font-size: 14px;
+	position: relative;
+}
+
+.sort-header button {
+	background: #CECECE;
+	outline: none;
+	border: none;
+	width: 80px;
+	height: 26px;
+	border-radius: 5px;
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	color: #991F23;
+}
+
+.sort-header button:last-of-type {
+	display: none;
+}
+
+.first-sort {
+	height: 40px;
+	border-bottom: 1px solid green;
+	font-size: 14px;
+}
+
+.first-sort-left,
+.first-sort-right {
+	font-size: 14px;
+	padding: 10px;
+	width: 120px;
+	text-align: center;
+}
+
+.first-sort-left {
+	float: left;
+}
+
+.first-sort-mid {
+	width: 744px;
+	float: left;
+}
+
+.first-sort-mid a {
+	margin-right: 10px;
+	line-height: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.first-sort-mid a:hover {
+	color: red;
+}
+
+.shaixuan a {
+	border: 1px solid red;
+	height: 18px;
+	padding: 5px;
+	margin-top: 5px;
+	line-height: 20px;
+}
+
+.shaixuan a span {
+	color: red;
+	margin-left: 10px;
+}
+
+.first-sort-right {
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+.more,
+.close {
+	outline: none;
+	border: none;
+	background: none;
+	position: absolute;
+	left: 40px;
+	margin-top: 20px;
+}
+
+.close {
+	display: none;
+}
+
+.main-right {
+	width: 237px;
+	float: right;
+	padding-left: 5px;
+}
+
+.main-right h3 {
+	font-size: 24px;
+	color: brown;
+	line-height: 40px;
+}
+
+.main-right .wine li:first-of-type {
+	margin-top: 0;
+}
+
+.main-right .wine li {
+	margin-top: 10px;
+}
+
+.brand .brand-sort {
+	height: 80px;
+}
+
+.brand-sort .first-sort-left,
+.brand-sort .first-sort-right {
+	line-height: 60px;
+}
+
+.allbrand {
+	width: 708px;
+	display: none;
+	height: 300px;
+	padding-left: 20px;
+}
+
+.allbrand li {
+	float: left;
+	text-align: center;
+}
+
+.allbrand li:first-of-type a {
+	width: 30px;
+}
+
+.allbrand li>a {
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.allbrand li>a:hover {
+	background: #000;
+	color: goldenrod;
+}
+
+.drink-content {
+	margin-top: 10px;
+}
+
+.wine:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.wine li {
+	width: 234px;
+	height: 280px;
+	border: 1px solid #CECECE;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+}
+
+.wine figure p {
+	border-bottom: 1px solid #cecece;
+	border-top: 1px solid #cecece;
+}
+
+.wine em {
+	font-size: 12px;
+	color: #767676;
+}
+
+.wine img {
+	width: 234px;
+	height: 235px;
+}
+
+.page {
+	width: 944px;
+	height: 30px;
+	background: #767676;
+}
+
+.nowpage {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.pages {
+	float: right;
+}
+
+.pages li {
+	float: left;
+	border: 1px solid #cecece;
+	margin: 5px;
+	width: 60px;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.pages .pagenum {
+	border: none;
+	width: 200px;
+}
+
+.pagenum span {
+	border: 1px solid #cecece;
+	margin: 3px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.hotbot {
+	float: left;
+}
+
+.hottop h2 {
+	width: 1170px;
+	height: 50px;
+	margin: 20px 0;
+	background: red;
+	line-height: 50px;
+	color: #fff;
+	padding-left: 20px;
+}
+
+.liquor {
+	width: 555px;
+	height: 300px;
+	background: #767676;
+	margin: 0 20px 10px;
+	float: left;
+}
+
+.liquor h3 {
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+}
+
+.liquor li {
+	float: left;
+	padding: 10px;
+	height: 30px;
+}
+
+.liquor li a {
+	color: #9ACD32;
+}
+
+.liquor li:last-of-type a {
+	color: #991F23;
+}
+
+.liquor li a:hover {
+	color: #991F23;
+}

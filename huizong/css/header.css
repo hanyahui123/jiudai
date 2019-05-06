@@ -1,0 +1,170 @@
+header{
+	min-width: 1190px;
+	height: 280px;
+}
+.hdtop{
+	width: 1190px;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 13px;
+	background-color: #F9F9F9;
+}
+.hdtopleft{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.hdtopleft span{
+	margin-left: 5px;
+}
+.hdtopleft input{
+	width: 130px;
+	height: 20px;
+}
+.hdtopright{
+	float: right;
+	font-size: 13px;
+}
+.hdtopright li{
+	float: left;
+	text-align: center;
+	border-right: 1px solid #C0C4C9;
+	margin-top: 12px;
+}
+.hdtopright li a{
+	padding: 0 10px;
+}
+.hdtopright li:nth-of-type(5){
+	border-right: 0;
+}
+.scrollbar{
+	width: 1190px;
+	height: 51px;
+	margin: 0 auto;
+}
+.hdlogo{
+	width: 1190px;
+	height: 92px;
+	margin: 0 auto;
+}
+.hdlogoleft{
+	width: 250px;
+	height: 76px;
+	margin-top: 8px;
+	margin-right: 10px;
+	float: left;
+}
+.logo{
+	width: 250px;
+	height: 76px;
+}
+.com_outer{
+	width: 928px;
+	height: 76px;
+	border: 1px solid #E8E8E8;
+	float: left;
+	margin-top: 6px;
+}
+.com_area{
+	width: 928px;
+	height: 40px;
+	float: left;
+	border-bottom: 1px solid #E8E8E8;
+}
+.com_area li{
+	width: 74px;
+	height: 30px;
+	margin-left: 10px;
+	background-color: #F4F3F3;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.com_area li:nth-child(1){
+	background-color: red;
+	color: white;
+}
+.com_library{
+	width: 928px;
+	height: 35px;
+	background-color: #F4F3F3;
+	float: left;
+}
+.com_library ul{
+	width: 285px;
+	height: 35px;
+	margin-left:24px;
+	float: left;
+}
+.com_library li{
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+}
+.com_library li a{
+	color: black;
+	font-weight: bold;
+}
+.nav{
+	width: 1190px;
+	height: 45px;
+	margin: 0 auto;
+}
+.nav li{
+	width: 108px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	background-color: #DC0303;
+	font-size: 16px;
+	float: left;
+}
+.nav li a{
+	color: white;
+}
+.nav li:hover{
+	background-color:#B80101; 
+}
+.input{
+	margin: 0 auto;
+	width: 1190px;
+	height: 45px;
+}
+.hotinput{
+	float: left;
+	width: 70%;
+	height: 39px;
+	border: 2px solid #DC0303;
+	margin-left: 15%;
+}
+.hotinput select{
+	width: 70px;
+	height: 33px;
+	border: 0;
+	border-right: 1px;
+	text-align: center;
+	font-size: 14px;
+}
+.hotinput input[type=text]{
+	width: 675px;
+	height: 33px;
+	border: 0;
+	line-height: 33px;
+	font-size: 14px;
+	outline: none;
+}
+.hotinput input[type=button]{
+	width: 80px;
+	height: 35px;
+	border: 0;
+	background-color: #DC0303;
+	color: white;
+	float: right;
+	font-size: 14px;
+}

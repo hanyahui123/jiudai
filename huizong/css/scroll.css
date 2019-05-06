@@ -1,0 +1,26 @@
+.huadong {width: 570px;height:40px; position:relative; border: 1px solid #E8E8E8; margin-top: 7px;float: left;margin-left: 15px;}
+.huadong .huabox {width: 90%;height: 30px;line-height: 30px;margin-top: 10px;margin-left: 30px;}
+.huadong h5 {float:left; line-height: 30px;width: 100px;margin-top: -5px;font-size: 15px;}
+
+.huadong .notice_active{
+    width: 400px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    font-size: 15px;
+}
+.huadong .notice_active li{list-style-type:none;line-height: 40px;overflow: hidden;margin-top: -10px;}
+.huadong .notice_active li.notice_active_ch span {color:#656972;display: block;overflow: hidden; width:80%;float: left;
+    overflow: hidden; margin-left: -100px;}
+    .huadong .gg_more{
+        float: left;
+        color: #888;
+        width: 595px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        border: 1px solid #656972;
+        text-align: center;
+        border-radius: 5px;
+    }
+.huadong .notice_active{text-align:right;float:right;color:#888;font-style:normal; }
