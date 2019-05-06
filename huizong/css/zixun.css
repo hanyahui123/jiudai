@@ -84,10 +84,10 @@ body{
 }
 /*h2*/
 .information-title h2{
-	height: 30px;
+	height: 40px;
 	line-height: 30px;
 	background: #fe7464;
-	width: 120px;
+	width: 130px;
 	color: #fff;
 	padding: 5px;
 	text-align: center;
@@ -118,7 +118,6 @@ body{
 	height: 160px;
 	float: left;
 	margin:10px 10px ;
-	padding: 20px;
 	overflow: hidden;
 }
 .information-main ul{
@@ -137,8 +136,8 @@ body{
 	text-decoration: underline;
 }
 .label li{
+	line-height: 0px;
 	height: 10px;
-	line-height: 10px;
 	background: #cecece;
 	float: left;
 	width: auto;
@@ -149,8 +148,8 @@ body{
 }
 /*第一栏的小框 放一张图片和对应的文字*/
 .new-if{
-	width: 320px;
-	height: 80px;
+	width: 340px;
+	height: 100px;
 	background: #CECECE;
 	padding: 10px;
 }
@@ -162,7 +161,7 @@ body{
 }
 .new-if p{
 	font-size: 14px;
-	width: 61%;
+	width: 59%;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -250,7 +249,6 @@ body{
 	text-decoration: underline;
 }
 .notice li em{
-	margin-top: 20px;
 	font-size: 12px;
 	display: block;
 }
